@@ -1,4 +1,4 @@
-# CASHNODES Crawler
+# ZeroNodes Crawler
 
 
 Cashnodes is currently being developed to estimate the size of the Bitcoin network by finding all the reachable nodes in the network. The current methodology involves sending [getaddr](https://en.bitcoin.it/wiki/Protocol_specification#getaddr) messages recursively to find all the reachable nodes in the network, starting from a set of seed nodes. Cashodes uses Bitcoin protocol version 70015 (i.e. >= Bitcoin ABC, Bitcoin XT and BUcash). Since Bitcoin Cash network use a different set of network magic bits we are certain to avoid inclusion of Bitcoin legacy nodes in the collected data.
